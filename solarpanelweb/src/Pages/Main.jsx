@@ -3,7 +3,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Main = () => {
   return (
-    <div>
+    <div data-testid="mainContainer">
         <div className="header" aria-label='header'>
              <div className="heading">
                <img src = "/image11.png" alt = "Logo"  className="logo-image"  ></img>
