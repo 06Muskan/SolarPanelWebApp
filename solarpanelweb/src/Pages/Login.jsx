@@ -25,7 +25,7 @@ const Login = () => {
                 </div>
                 <div className="confirm-part">
                   {/* <i ></i> */}
-                  <input type='checkbox'></input>
+                  <input type='checkbox' style={{marginBottom:'21px'}}></input>
                   <p>I would like to receive the latest news about solar panels</p>
                 </div>
                 <button className="signup-button">Signup</button>

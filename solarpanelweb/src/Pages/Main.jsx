@@ -28,13 +28,13 @@ const Main = () => {
              </div>
              <div className="div3" aria-live='assertive'>
                 <div className="steps-heading">
-                <h3 className="procedure-heading main-heading">Step wise Procedure</h3>
-                <h4 className="procedure-heading main-heading" >Step 1:</h4>
-                <h4 className="procedure-heading sub-heading">Register in the Portal.</h4>
-                <h4 className="procedure-heading main-heading">Step 2:</h4>
-                <h4 className="procedure-heading sub-heading">Login with ID.</h4>
-                <h4 className="procedure-heading main-heading">Step 3:</h4>
-                <h4 className="procedure-heading sub-heading">Get Approvals.</h4>
+                <h3 className="main-heading">Step wise Procedure</h3>
+                <h4 className="main-heading" >Step 1:</h4>
+                <h4 className="sub-heading">Register in the Portal.</h4>
+                <h4 className="main-heading">Step 2:</h4>
+                <h4 className="sub-heading">Login with ID.</h4>
+                <h4 className="main-heading">Step 3:</h4>
+                <h4 className="sub-heading">Get Approvals.</h4>
                 </div>
              </div>
             </div>
