@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Navbar = () => {
     return (
-        <nav className="navbar">
+        <nav className="navbar" aria-level="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
                 <i className='fas fa-house-user'></i>

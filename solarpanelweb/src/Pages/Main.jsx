@@ -4,7 +4,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 const Main = () => {
   return (
     <div>
-        <div className="header">
+        <div className="header" aria-label='header'>
              <div className="heading">
                <img src = "/image11.png" alt = "Logo"  className="logo-image"  ></img>
                <img src="/HeadingImg2.webp" alt ="heading img" className="regular-image" ></img>
@@ -26,7 +26,7 @@ const Main = () => {
                 <img src="solar-panels-2.jpg" alt="Image 2"  className="solarimg" ></img>
                 </div>
              </div>
-             <div className="div3">
+             <div className="div3" aria-live='assertive'>
                 <div className="steps-heading">
                 <h3 className="procedure-heading main-heading">Step wise Procedure</h3>
                 <h4 className="procedure-heading main-heading" >Step 1:</h4>
@@ -41,7 +41,7 @@ const Main = () => {
             <div className="content-img">
                 <img src="/contentImg.jpeg" alt="img" className="contentimg"></img>
             </div>
-            <footer className="footer1">
+            <footer className="footer1" aria-label='footer'>
               <div className="footer-links">
                 <a href="terms.html">Terms & Conditions</a>
                 <span>|</span>
@@ -52,15 +52,14 @@ const Main = () => {
                 <a href="hyperlinking.html">Hyperlinking Policy</a>
               </div>
             </footer>
-            <footer className="footer2">
+            <footer className="footer2" aria-label='footer'>
                <div className="footer-content">
                   <p> copyright &copy; 2024</p>
                   <p>Website Content Management By Script Squad</p>
                   <p>Last updated - 29/July/2024</p>
                   <p className="highlight-red">Total Hits: 19586344</p>
                 </div>
-            </footer>
-            
+            </footer>            
     </div>
   )
 }
